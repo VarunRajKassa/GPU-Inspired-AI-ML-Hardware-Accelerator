@@ -47,17 +47,17 @@ The project was functionally verified through behavioral simulation and synthesi
 
 ## Project Files
 
-- `mac_unit.v` → Basic MAC processing element
-- `mac_array.v` → Parallel MAC compute array
-- `controller.v` → FSM controller
-- `accelerator_top.v` → Top-level integration
-- `tb_accelerator.v` → Testbench for verification
+- `rtl/mac_unit.v` → Basic MAC processing element
+- `rtl/mac_array.v` → Parallel MAC compute array
+- `rtl/controller.v` → FSM controller
+- `rtl/accelerator_top.v` → Top-level integration
+- `tb/tb_accelerator.v` → Testbench for verification
 
 ---
 
 ## Behavioral Simulation Waveform
 
-![Waveform](GPU_Waveforms.png)
+![Waveform](results/GPU_Waveforms.png)
 
 ---
 
@@ -65,11 +65,11 @@ The project was functionally verified through behavioral simulation and synthesi
 
 ### Top-Level Schematic
 
-![Schematic](GPU_Schematic_1.png)
+![Schematic](results/GPU_Schematic_1.png)
 
 ### Netlist-Level Schematic
 
-![Schematic](GPU_Schematic_2.png)
+![Schematic](results/GPU_Schematic_2.png)
 
 ---
 
